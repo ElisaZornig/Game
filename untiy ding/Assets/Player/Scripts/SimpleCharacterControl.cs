@@ -189,4 +189,22 @@ public class SimpleCharacterControl : MonoBehaviour {
             m_animator.SetTrigger("Jump");
         }
     }
+
+	public GameObject tekstvak;
+
+	private void OnTriggerEnter(Collider other)
+	{
+		bool book = other.gameObject.CompareTag("Book");
+
+		if (other.gameObject.CompareTag("Collectible"))
+		{
+			other.gameObject.SetActive(false);
+		}
+		else if (book)
+		{
+			other.gameObject.SetActive(false);
+			tekstvak.SetActive (true);
+		}
+	}
+
 }
