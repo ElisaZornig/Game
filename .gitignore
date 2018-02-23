@@ -1,6 +1,6 @@
 test.txt
-untiy ding\Library
-untiy ding\Temp
-untiy ding\.vs
-untiy ding\obj
+untiy ding/Library/
+untiy ding/Temp/
+untiy ding/.vs/
+untiy ding/obj/
 *.log
