@@ -2224,7 +2224,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254887888}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8bcfc253d2f75b4daab6bd658e5c1e9, type: 3}
   m_Name: 
@@ -5358,7 +5358,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 539063510}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -61.243694, y: 39.191643, z: -32.91162}
+  m_LocalPosition: {x: -59.03, y: 39.164, z: -20.035}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_Children:
   - {fileID: 696901361}
@@ -9352,6 +9352,7 @@ GameObject:
   - component: {fileID: 824685560}
   - component: {fileID: 824685562}
   - component: {fileID: 824685561}
+  - component: {fileID: 824685563}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -9415,6 +9416,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 824685559}
   m_Mesh: {fileID: 4300002, guid: 50b000ec0e1aeb743abb3711279ce971, type: 3}
+--- !u!114 &824685563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 824685559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4360ea90b095a3489011d536951abf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &833146535 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4445075838596468, guid: fa08f8c3919faf840bab4542f9537e4f,
@@ -15604,7 +15616,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404247760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 452, y: 202, z: 0}
+  m_LocalPosition: {x: 451, y: 201.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1653097516}
@@ -18629,7 +18641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3048287cc59df874d89436425fdb14ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevel: Level4
+  loadLevel: Church
 --- !u!23 &1690274255
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22867,6 +22879,10 @@ Prefab:
       propertyPath: tekstvak
       value: 
       objectReference: {fileID: 688294469}
+    - target: {fileID: 1824340380413090, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 2}
+      propertyPath: m_Name
+      value: player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 2}
   m_IsPrefabParent: 0
