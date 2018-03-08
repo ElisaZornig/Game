@@ -51,7 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Basis wereld\Scripts\FlyCam.cs" />
+     <Compile Include="Assets\Basis wereld prefabs\Scripts\FlyCam.cs" />
+     <Compile Include="Assets\Cameracontrol.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning1.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning2.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning3.cs" />
