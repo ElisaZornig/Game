@@ -56,6 +56,8 @@
      <Compile Include="Assets\Collectibles\scripts\Spinning1.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning2.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning3.cs" />
+     <Compile Include="Assets\Devil\Controllers\EnemyController.cs" />
+     <Compile Include="Assets\Devil\Controllers\PlayerManager.cs" />
      <Compile Include="Assets\Levels\MoveScene.cs" />
      <Compile Include="Assets\Player\Scripts\CameraLogic.cs" />
      <Compile Include="Assets\Player\Scripts\Demo.cs" />
@@ -77,17 +79,8 @@
  <Reference Include="UnityEngine.Timeline">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UIAutomation">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GoogleAudioSpatializer">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/120454/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
