@@ -56,13 +56,21 @@
      <Compile Include="Assets\Collectibles\scripts\Spinning1.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning2.cs" />
      <Compile Include="Assets\Collectibles\scripts\Spinning3.cs" />
+     <Compile Include="Assets\Devil\CharacterCombat.cs" />
+     <Compile Include="Assets\Devil\CharacterStats.cs" />
      <Compile Include="Assets\Devil\Controllers\EnemyController.cs" />
      <Compile Include="Assets\Devil\Controllers\PlayerManager.cs" />
+     <Compile Include="Assets\Devil\Enemy.cs" />
+     <Compile Include="Assets\Devil\EnemyStats.cs" />
+     <Compile Include="Assets\Devil\Interactable.cs" />
+     <Compile Include="Assets\Devil\PlayerStats.cs" />
+     <Compile Include="Assets\Devil\Stat.cs" />
      <Compile Include="Assets\Levels\MoveScene.cs" />
      <Compile Include="Assets\Player\Scripts\CameraLogic.cs" />
      <Compile Include="Assets\Player\Scripts\Demo.cs" />
      <Compile Include="Assets\Player\Scripts\SimpleCharacterControl.cs" />
      <Compile Include="Assets\Player\Scripts\SimpleCharacterControl1.cs" />
+     <Compile Include="Assets\PlayerController.cs" />
      <None Include="Assets\Interiors\Materials\Double Sided Standard Diffuse Bump.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
