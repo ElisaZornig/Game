@@ -21,11 +21,14 @@ EditorBuildSettings:
     path: Assets/Levels/Level3.unity
     guid: a93693aed0482384a8e42627118d320c
   - enabled: 1
-    path: Assets/Levels/Level4.unity
+    path: Assets/Levels/Church.unity
     guid: cc30e32363fce8f498e02d445efbb1f4
   - enabled: 1
     path: Assets/Levels/Level5.unity
     guid: 9e89671b6a7c9e643a6ef1c79dd85b4b
+  - enabled: 1
+    path: Assets/Levels/Menu.unity
+    guid: 36534ace95a387342987ff5997ddb29b
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
