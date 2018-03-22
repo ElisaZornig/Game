@@ -1,12 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth { get; private set; }
-
+    public Text Health;
+    public Text Losetext;
     public Stat damage;
     public Stat armor;
+    public GameObject button;
+    
+    
+       
+
+
+    void Start() {
+
+        SetHealth();
+        Losetext.text = "";
+    }
 
     void Awake() {
 
@@ -14,10 +27,13 @@ public class CharacterStats : MonoBehaviour
 
     }
 
-    void Update() {
+    void OnCollisionEnter(Collision collision) {
 
-        if (Input.GetKeyDown(KeyCode.T)) {
+        if (collision.gameObject.CompareTag("Enemy")) {
             TakeDamage(10);
+            Debug.Log(transform.name + "Collision");
+            SetHealth();
+
         }
     }
 
@@ -32,6 +48,18 @@ public class CharacterStats : MonoBehaviour
         if (currentHealth <= 0) {
 
             Die();
+        }
+    }
+
+
+    void SetHealth()
+    {
+        Health.text = "Your Health:" + currentHealth.ToString();
+        if (currentHealth <= 0)
+        {
+            
+            Losetext.text = "You Lose!";
+            button.SetActive(true);
         }
     }
 
