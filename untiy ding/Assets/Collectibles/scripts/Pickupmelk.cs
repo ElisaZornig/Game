@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Pickupmelk : MonoBehaviour {
 
-    public GameObject nietei;
+    public GameObject nietmelk;
     void OnTriggrEnter(Collider other)
     {
         if (other.gameObject.CompareTag("player"))
         {
-            nietei.SetActive(true);
+            nietmelk.SetActive(true);
         }
     }
 }

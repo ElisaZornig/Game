@@ -7,6 +7,11 @@ TagManager:
   - Collectible
   - Book
   - tekstveld1
+  - Bloem
+  - Ei
+  - Bot
+  - Kandelaar
+  - Melk
   layers:
   - Default
   - TransparentFX

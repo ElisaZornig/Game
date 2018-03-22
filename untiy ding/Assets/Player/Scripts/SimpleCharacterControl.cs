@@ -190,21 +190,47 @@ public class SimpleCharacterControl : MonoBehaviour {
         }
     }
 
-	public GameObject tekstvak;
+    [SerializeField] public GameObject tekstvak;
+    [SerializeField] public GameObject nietbloem;
+    [SerializeField] public GameObject nietei;
+    [SerializeField] public GameObject nietkandelaar;
+    [SerializeField] public GameObject nietbot;
+    [SerializeField] public GameObject nietmelk;
 
-	private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
 	{
 		bool book = other.gameObject.CompareTag("Book");
 
-		if (other.gameObject.CompareTag("Collectible"))
-		{
-			other.gameObject.SetActive(false);
-		}
-		else if (book)
+		if (book)
 		{
 			other.gameObject.SetActive(false);
 			tekstvak.SetActive (true);
 		}
-	}
+        else if (other.gameObject.CompareTag("Bloem"))
+        {
+            Destroy(other.gameObject);
+            nietbloem.SetActive(true);
+        }
+        else if (other.gameObject.CompareTag("Kandelaar"))
+        {
+            other.gameObject.SetActive(false);
+            nietkandelaar.SetActive(true);
+        }
+        else if (other.gameObject.CompareTag("Ei"))
+        {
+            other.gameObject.SetActive(false);
+            nietei.SetActive(true);
+        }
+        else if (other.gameObject.CompareTag("Bot"))
+        {
+            other.gameObject.SetActive(false);
+            nietbot.SetActive(true);
+        }
+        else if (other.gameObject.CompareTag("Melk"))
+        {
+            other.gameObject.SetActive(false);
+            nietmelk.SetActive(true);
+        }
+    }
 
 }

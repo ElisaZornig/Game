@@ -33,10 +33,10 @@ public class PlayerController : MonoBehaviour {
 
             if (Input.GetMouseButtonDown(1))
             {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
+                Ray ray2 = cam.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit2;
 
-                if (Physics.Raycast(ray, out hit, 100))
+                if (Physics.Raycast(ray2, out hit2, 100))
                 {
                     Interactable interactable = hit.collider.GetComponent<Interactable>();
                     if (interactable != null)
