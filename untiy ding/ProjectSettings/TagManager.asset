@@ -3,19 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Collectible
-  - Book
-  - tekstveld1
-<<<<<<< HEAD
-  - Bloem
-  - Ei
-  - Bot
-  - Kandelaar
-  - Melk
-=======
-  - Enemy
->>>>>>> e940f501428f639d354c5a288f9189f543a3abf5
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -25,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
+  - 
   - 
   - 
   - 
