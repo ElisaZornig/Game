@@ -7,6 +7,7 @@ TagManager:
   - Collectible
   - Book
   - tekstveld1
+  - Enemy
   layers:
   - Default
   - TransparentFX

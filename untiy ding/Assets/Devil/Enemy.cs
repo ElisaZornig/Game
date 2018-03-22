@@ -10,7 +10,7 @@ public class Enemy : Interactable {
     CharacterStats myStats;
 
 
-    void Start()
+    void Start ()
     {
         playerManager = PlayerManager.instance;
         myStats = GetComponent<CharacterStats>();

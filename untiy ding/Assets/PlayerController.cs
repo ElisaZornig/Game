@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+[RequireComponent(typeof(EnemyStats))]
 public class PlayerController : MonoBehaviour {
 
     public Interactable focus;
@@ -30,23 +31,30 @@ public class PlayerController : MonoBehaviour {
                 //Stop focusing any objects
                 RemoveFocus();
             }
+        } 
 
             if (Input.GetMouseButtonDown(1))
             {
-                Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
+                Ray ray2 = cam.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit2;
 
-                if (Physics.Raycast(ray, out hit, 100))
+                if (Physics.Raycast(ray2, out hit2, 100))
                 {
-                    Interactable interactable = hit.collider.GetComponent<Interactable>();
+                      
+                    Debug.Log("Interacting with " + hit2.collider.name + " " + hit2.point);
+                    
+                    Interactable interactable = hit2.collider.GetComponent<Interactable>();
                     if (interactable != null)
                     {
+                        
                         SetFocus(interactable);
                     }
+
                 }
+
             }
         }
-    }
+    
         void SetFocus(Interactable newFocus)
     {
         focus = newFocus;
