@@ -99,8 +99,6 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 7596e1d3ea7cab0498399338977e65e4 Assembly-CSharp.dll:.Demo
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DontDestroy1
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitGame
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_UiFrameRateCounter
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexJitter
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -236,7 +234,6 @@ cd0167d7ce4ff561cc6218371f7c3c68 Assembly-CSharp.dll:.CameraLogic
 afc52d27c3ec0bd47909e81bd45fbffa Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Destroy
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
 af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 540549a954cf9b03e03cea407bffbfbf Assembly-CSharp.dll:.Cameracontrol
