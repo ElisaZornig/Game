@@ -9,7 +9,7 @@ public class EnemyStats : MonoBehaviour {
     public int maxHealth = 100;
     public int currentHealth { get; private set; }
     public GameObject enemy;
-    
+	public GameObject WinButton;
 
     public Stat damage;
     public Stat armor;
@@ -62,6 +62,7 @@ public class EnemyStats : MonoBehaviour {
         {
             enemy.SetActive(false);
             Wintext.text = "You Win!";
+			WinButton.SetActive (true);
         }
     }
     public virtual void Die()

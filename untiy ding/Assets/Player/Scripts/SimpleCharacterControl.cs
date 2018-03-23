@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 public class SimpleCharacterControl : MonoBehaviour {
 
-    private enum ControlMode
+    
+	private enum ControlMode
     {
         Tank,
         Direct
@@ -232,5 +233,6 @@ public class SimpleCharacterControl : MonoBehaviour {
             nietmelk.SetActive(true);
         }
     }
+
 
 }

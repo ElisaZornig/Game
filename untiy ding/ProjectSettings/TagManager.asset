@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Bloem
+  - tekstveld1
+  - Book
+  - Melk
+  - Collectible
+  - Ei
+  - Kandelaar
+  - Bot
+  - Music
   layers:
   - Default
   - TransparentFX
